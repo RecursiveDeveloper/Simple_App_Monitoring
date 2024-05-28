@@ -4,10 +4,9 @@ global:
 scrape_configs:
 - job_name: "prometheus_service"
   static_configs:
-  - targets: ["host.docker.internal:9090"] # Windows
+  - targets: ["localhost:9090"] # Windows
   # - targets: ["docker.for.mac.localhost:9090"] # macOs
 - job_name: "nodejs_service"
-
   static_configs:
-  - targets: ["host.docker.internal:3002"] # Windows
+  - targets: ["localhost:3002"] # Windows
   # - targets: ["docker.for.mac.localhost:9090"] # macOs
