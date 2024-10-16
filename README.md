@@ -19,6 +19,8 @@ I'm a junior DevOps engineer with some expertise in BackEnd development using Ja
 
 Set up your own local monitoring app running node.js server to register and gather metrics with prometheus and visualize them in grafana; using vagrant as your virtual environment manager.
 
+![image](https://raw.githubusercontent.com/RecursiveDeveloper/static-media-content/refs/heads/main/Simple_monitoring_app.png)
+
 ## Tech Stack 
 
 - **Client:** ---
