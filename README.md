@@ -43,6 +43,11 @@ To deploy this project run
   vagrant up
 ```
 
+If prometheus container fails during execution, ssh into vagrant and delete prometheus /data/chunks_head/ folder
+```bash
+  sudo rm -rf /opt/config/monitoring/prometheus_data/data/chunks_head/
+```
+
 For more informations about vagrant commands check [vagrant-cheat-sheet](https://gist.github.com/wpscholar/a49594e2e2b918f4d0c4)
 
 ## Authors
