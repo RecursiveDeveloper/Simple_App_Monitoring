@@ -2,9 +2,6 @@
 
 OWNER=$1
 
-echo -e "\nInstalling Docker Engine...\n"
-echo -e "This may take a while...\n"
-echo "User set as default $OWNER"
 sudo apt-get -y update
 
 # Add Docker's official GPG key:
